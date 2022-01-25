@@ -22,7 +22,7 @@ namespace HomeProject
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
             string message = "Are you sure you want to exit this application";
             string title = "Exit Applaction";
@@ -40,6 +40,7 @@ namespace HomeProject
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
+            treeViewNavgation.ExpandAll();
 
         }
     }

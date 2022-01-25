@@ -40,7 +40,7 @@
             this.panelHeader = new System.Windows.Forms.Panel();
             this.lblLogo = new System.Windows.Forms.Label();
             this.panelApp = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblDisplyName = new System.Windows.Forms.Label();
             this.panelNavitagion = new System.Windows.Forms.Panel();
@@ -76,7 +76,7 @@
             // 
             this.panelApp.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.panelApp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelApp.Controls.Add(this.button1);
+            this.panelApp.Controls.Add(this.btnExit);
             this.panelApp.Controls.Add(this.pictureBox1);
             this.panelApp.Controls.Add(this.lblDisplyName);
             this.panelApp.Dock = System.Windows.Forms.DockStyle.Top;
@@ -85,17 +85,17 @@
             this.panelApp.Size = new System.Drawing.Size(804, 100);
             this.panelApp.TabIndex = 1;
             // 
-            // button1
+            // btnExit
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(716, 59);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 34);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Exit";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnExit.Location = new System.Drawing.Point(716, 59);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 34);
+            this.btnExit.TabIndex = 2;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // pictureBox1
             // 
@@ -191,7 +191,7 @@
         private System.Windows.Forms.Label lblLogo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblDisplyName;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.TreeView treeViewNavgation;
     }
 }
