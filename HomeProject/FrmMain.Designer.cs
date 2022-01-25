@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("UserProfile");
             System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("ShoppingItems");
             System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("MyInventory");
@@ -37,6 +38,7 @@
             treeNode2,
             treeNode3,
             treeNode4});
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.panelHeader = new System.Windows.Forms.Panel();
             this.lblLogo = new System.Windows.Forms.Label();
             this.panelApp = new System.Windows.Forms.Panel();
@@ -46,6 +48,7 @@
             this.panelNavitagion = new System.Windows.Forms.Panel();
             this.treeViewNavgation = new System.Windows.Forms.TreeView();
             this.panelContent = new System.Windows.Forms.Panel();
+            this.imagListNavigation = new System.Windows.Forms.ImageList(this.components);
             this.panelHeader.SuspendLayout();
             this.panelApp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -125,27 +128,35 @@
             this.panelNavitagion.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelNavitagion.Location = new System.Drawing.Point(0, 200);
             this.panelNavitagion.Name = "panelNavitagion";
-            this.panelNavitagion.Size = new System.Drawing.Size(162, 271);
+            this.panelNavitagion.Size = new System.Drawing.Size(214, 271);
             this.panelNavitagion.TabIndex = 2;
             // 
             // treeViewNavgation
             // 
             this.treeViewNavgation.Dock = System.Windows.Forms.DockStyle.Left;
+            this.treeViewNavgation.ImageIndex = 0;
+            this.treeViewNavgation.ImageList = this.imagListNavigation;
             this.treeViewNavgation.Location = new System.Drawing.Point(0, 0);
             this.treeViewNavgation.Name = "treeViewNavgation";
+            treeNode1.ImageKey = "download.png";
             treeNode1.Name = "NodeUserProifle";
             treeNode1.Text = "UserProfile";
+            treeNode2.ImageKey = "شوبينق.jpg";
             treeNode2.Name = "NodeShoppingItems";
             treeNode2.Text = "ShoppingItems";
+            treeNode3.ImageKey = "SHOPING 2.jpg";
             treeNode3.Name = "NodeMyInventory";
             treeNode3.Text = "MyInventory";
+            treeNode4.ImageKey = "احصائيات.png";
             treeNode4.Name = "NodeStatisticsAndCharts";
             treeNode4.Text = "StatisticsAndCharts";
+            treeNode5.ImageKey = "Home.png";
             treeNode5.Name = "NodeRoot";
             treeNode5.Text = "HomeProject";
             this.treeViewNavgation.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode5});
-            this.treeViewNavgation.Size = new System.Drawing.Size(161, 269);
+            this.treeViewNavgation.SelectedImageIndex = 0;
+            this.treeViewNavgation.Size = new System.Drawing.Size(213, 269);
             this.treeViewNavgation.TabIndex = 0;
             this.treeViewNavgation.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewNavgation_AfterSelect);
             // 
@@ -154,10 +165,20 @@
             this.panelContent.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.panelContent.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContent.Location = new System.Drawing.Point(162, 200);
+            this.panelContent.Location = new System.Drawing.Point(214, 200);
             this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(642, 271);
+            this.panelContent.Size = new System.Drawing.Size(590, 271);
             this.panelContent.TabIndex = 3;
+            // 
+            // imagListNavigation
+            // 
+            this.imagListNavigation.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imagListNavigation.ImageStream")));
+            this.imagListNavigation.TransparentColor = System.Drawing.Color.Transparent;
+            this.imagListNavigation.Images.SetKeyName(0, "Home.png");
+            this.imagListNavigation.Images.SetKeyName(1, "download.png");
+            this.imagListNavigation.Images.SetKeyName(2, "شوبينق.jpg");
+            this.imagListNavigation.Images.SetKeyName(3, "SHOPING 2.jpg");
+            this.imagListNavigation.Images.SetKeyName(4, "احصائيات.png");
             // 
             // FrmMain
             // 
@@ -169,6 +190,7 @@
             this.Controls.Add(this.panelApp);
             this.Controls.Add(this.panelHeader);
             this.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "FrmMain";
             this.Text = "HomeProject";
             this.Load += new System.EventHandler(this.FrmMain_Load);
@@ -193,5 +215,6 @@
         private System.Windows.Forms.Label lblDisplyName;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.TreeView treeViewNavgation;
+        private System.Windows.Forms.ImageList imagListNavigation;
     }
 }
