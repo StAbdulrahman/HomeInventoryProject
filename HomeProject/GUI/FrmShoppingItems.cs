@@ -16,5 +16,15 @@ namespace HomeProject.GUI
         {
             InitializeComponent();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmShoppingItems_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

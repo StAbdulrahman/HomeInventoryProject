@@ -119,5 +119,80 @@
   <ItemGroup>
     <None Include="Resources\OIP.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\جزر.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\بصل.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\موز.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تفاح.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\بطاطس.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\برتقا.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خس.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خيار.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ذرة.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\طماطم.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\فلفل.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\بازيلاء.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خيار1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\فروالة.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\فطر.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\قرنبيط.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\كوسيا.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\كيوي.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ليمون.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\منجا.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\افوكادو.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\اناناس.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\باذنجان.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-an-abstract-background-perfect-for-any-project-you-might-have-image_310605.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SHOPING 2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

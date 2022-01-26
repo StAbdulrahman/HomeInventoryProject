@@ -59,8 +59,11 @@ namespace HomeProject
                 frm.FormBorderStyle = FormBorderStyle.None;
                 frm.TopLevel = false;
                 panelContent.Controls.Add(frm);
+                frm.Dock = DockStyle.Fill;
                 currentActiveForm = frm;
                 frm.Show();
+                
+
 
             }
             

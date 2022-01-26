@@ -118,7 +118,85 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="موز" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\موز.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="بصل" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\بصل.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ليمون" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ليمون.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="بازيلاء" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\بازيلاء.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="اناناس" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\اناناس.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="برتقا" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\برتقا.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="منجا" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\منجا.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="كيوي" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\كيوي.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="تفاح" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\تفاح.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="جزر" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\جزر.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="قرنبيط" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\قرنبيط.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="خيار1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\خيار1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-an-abstract-background-perfect-for-any-project-you-might-have-image_310605" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-an-abstract-background-perfect-for-any-project-you-might-have-image_310605.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="كوسيا" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\كوسيا.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="خس" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\خس.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="خيار" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\خيار.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="طماطم" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\طماطم.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="فلفل" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\فلفل.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="باذنجان" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\باذنجان.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="بطاطس" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\بطاطس.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="فطر" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\فطر.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="افوكادو" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\افوكادو.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="OIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="فروالة" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\فروالة.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-an-abstract-background-perfect-for-any-project-you-might-have-image_3106051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-an-abstract-background-perfect-for-any-project-you-might-have-image_310605.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ذرة" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ذرة.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHOPING 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHOPING 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

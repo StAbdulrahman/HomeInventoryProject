@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("UserProfile");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("ShoppingItems");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("MyInventory");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("StatisticsAndCharts");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("HomeProject", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4});
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("UserProfile");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("ShoppingItems");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("MyInventory");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("StatisticsAndCharts");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("HomeProject", new System.Windows.Forms.TreeNode[] {
+            treeNode6,
+            treeNode7,
+            treeNode8,
+            treeNode9});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.panelHeader = new System.Windows.Forms.Panel();
             this.lblLogo = new System.Windows.Forms.Label();
@@ -57,7 +57,8 @@
             // 
             // panelHeader
             // 
-            this.panelHeader.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panelHeader.BackColor = System.Drawing.Color.White;
+            this.panelHeader.BackgroundImage = global::HomeProject.Properties.Resources.pngtree_an_abstract_background_perfect_for_any_project_you_might_have_image_3106051;
             this.panelHeader.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelHeader.Controls.Add(this.lblLogo);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
@@ -69,6 +70,7 @@
             // lblLogo
             // 
             this.lblLogo.AutoSize = true;
+            this.lblLogo.BackColor = System.Drawing.Color.RosyBrown;
             this.lblLogo.Location = new System.Drawing.Point(36, 29);
             this.lblLogo.Name = "lblLogo";
             this.lblLogo.Size = new System.Drawing.Size(105, 19);
@@ -78,6 +80,7 @@
             // panelApp
             // 
             this.panelApp.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panelApp.BackgroundImage = global::HomeProject.Properties.Resources.pngtree_an_abstract_background_perfect_for_any_project_you_might_have_image_310605;
             this.panelApp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelApp.Controls.Add(this.btnExit);
             this.panelApp.Controls.Add(this.pictureBox1);
@@ -91,13 +94,14 @@
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExit.BackColor = System.Drawing.Color.RosyBrown;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExit.Location = new System.Drawing.Point(716, 59);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 34);
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "Exit";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // pictureBox1
@@ -113,6 +117,7 @@
             // lblDisplyName
             // 
             this.lblDisplyName.AutoSize = true;
+            this.lblDisplyName.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblDisplyName.Location = new System.Drawing.Point(117, 40);
             this.lblDisplyName.Name = "lblDisplyName";
             this.lblDisplyName.Size = new System.Drawing.Size(188, 19);
@@ -128,40 +133,41 @@
             this.panelNavitagion.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelNavitagion.Location = new System.Drawing.Point(0, 200);
             this.panelNavitagion.Name = "panelNavitagion";
-            this.panelNavitagion.Size = new System.Drawing.Size(214, 271);
+            this.panelNavitagion.Size = new System.Drawing.Size(214, 218);
             this.panelNavitagion.TabIndex = 2;
             // 
             // treeViewNavgation
             // 
+            this.treeViewNavgation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.treeViewNavgation.Dock = System.Windows.Forms.DockStyle.Left;
             this.treeViewNavgation.HotTracking = true;
             this.treeViewNavgation.ImageIndex = 0;
             this.treeViewNavgation.ImageList = this.imagListNavigation;
             this.treeViewNavgation.Location = new System.Drawing.Point(0, 0);
             this.treeViewNavgation.Name = "treeViewNavgation";
-            treeNode1.ImageKey = "download.png";
-            treeNode1.Name = "NodeUserProfile";
-            treeNode1.SelectedImageKey = "Cheek.png";
-            treeNode1.Text = "UserProfile";
-            treeNode2.ImageKey = "شوبينق.jpg";
-            treeNode2.Name = "NodeShoppingItems";
-            treeNode2.SelectedImageKey = "Cheek.png";
-            treeNode2.Text = "ShoppingItems";
-            treeNode3.ImageKey = "SHOPING 2.jpg";
-            treeNode3.Name = "NodeMyInventory";
-            treeNode3.SelectedImageKey = "Cheek.png";
-            treeNode3.Text = "MyInventory";
-            treeNode4.ImageKey = "احصائيات.png";
-            treeNode4.Name = "NodeStatisticsAndCharts";
-            treeNode4.SelectedImageKey = "Cheek.png";
-            treeNode4.Text = "StatisticsAndCharts";
-            treeNode5.ImageKey = "Home.png";
-            treeNode5.Name = "NodeRoot";
-            treeNode5.Text = "HomeProject";
+            treeNode6.ImageKey = "download.png";
+            treeNode6.Name = "NodeUserProfile";
+            treeNode6.SelectedImageKey = "Cheek.png";
+            treeNode6.Text = "UserProfile";
+            treeNode7.ImageKey = "شوبينق.jpg";
+            treeNode7.Name = "NodeShoppingItems";
+            treeNode7.SelectedImageKey = "Cheek.png";
+            treeNode7.Text = "ShoppingItems";
+            treeNode8.ImageKey = "SHOPING 2.jpg";
+            treeNode8.Name = "NodeMyInventory";
+            treeNode8.SelectedImageKey = "Cheek.png";
+            treeNode8.Text = "MyInventory";
+            treeNode9.ImageKey = "احصائيات.png";
+            treeNode9.Name = "NodeStatisticsAndCharts";
+            treeNode9.SelectedImageKey = "Cheek.png";
+            treeNode9.Text = "StatisticsAndCharts";
+            treeNode10.ImageKey = "Home.png";
+            treeNode10.Name = "NodeRoot";
+            treeNode10.Text = "HomeProject";
             this.treeViewNavgation.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode5});
+            treeNode10});
             this.treeViewNavgation.SelectedImageIndex = 0;
-            this.treeViewNavgation.Size = new System.Drawing.Size(213, 269);
+            this.treeViewNavgation.Size = new System.Drawing.Size(213, 216);
             this.treeViewNavgation.TabIndex = 0;
             this.treeViewNavgation.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewNavgation_AfterSelect);
             // 
@@ -179,18 +185,21 @@
             // panelContent
             // 
             this.panelContent.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panelContent.BackgroundImage = global::HomeProject.Properties.Resources.pngtree_an_abstract_background_perfect_for_any_project_you_might_have_image_310605;
             this.panelContent.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContent.Location = new System.Drawing.Point(214, 200);
             this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(590, 271);
+            this.panelContent.Size = new System.Drawing.Size(590, 218);
             this.panelContent.TabIndex = 3;
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(804, 471);
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::HomeProject.Properties.Resources.pngtree_an_abstract_background_perfect_for_any_project_you_might_have_image_310605;
+            this.ClientSize = new System.Drawing.Size(804, 418);
             this.Controls.Add(this.panelContent);
             this.Controls.Add(this.panelNavitagion);
             this.Controls.Add(this.panelApp);
