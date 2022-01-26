@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HomeProject.GUI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace HomeProject
 {
     public partial class FrmMain : Form
     {
+        private Form currentActiveForm = null;
         public FrmMain()
         {
             InitializeComponent();
@@ -35,11 +37,40 @@ namespace HomeProject
 
         private void treeViewNavgation_AfterSelect(object sender, TreeViewEventArgs e)
         {
+            Form frm = null;
+
+            TreeNode node = e.Node;
+            if (node.Name == "NodeMyInventory")
+                frm = new FrmMyInventory();
+            else if (node.Name == "NodeShoppingItems")
+                frm = new FrmShoppingItems();
+            else if (node.Name == "NodeUserProfile")
+                frm = new FrmUserProfile();
+            else if (node.Name == "NodeStatisticsAndCharts")
+                frm = new FrmStatisticsAndCharts();
+
+            if(frm != null)
+            {
+                if (currentActiveForm!= null && currentActiveForm !=frm)
+                {
+                    currentActiveForm.Close();
+                    panelContent.Controls.Remove(currentActiveForm);
+                }
+                frm.FormBorderStyle = FormBorderStyle.None;
+                frm.TopLevel = false;
+                panelContent.Controls.Add(frm);
+                currentActiveForm = frm;
+                frm.Show();
+
+            }
+            
+
 
         }
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
+
             treeViewNavgation.ExpandAll();
 
         }

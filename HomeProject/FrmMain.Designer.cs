@@ -140,7 +140,7 @@
             this.treeViewNavgation.Location = new System.Drawing.Point(0, 0);
             this.treeViewNavgation.Name = "treeViewNavgation";
             treeNode1.ImageKey = "download.png";
-            treeNode1.Name = "NodeUserProifle";
+            treeNode1.Name = "NodeUserProfile";
             treeNode1.SelectedImageKey = "Cheek.png";
             treeNode1.Text = "UserProfile";
             treeNode2.ImageKey = "شوبينق.jpg";
