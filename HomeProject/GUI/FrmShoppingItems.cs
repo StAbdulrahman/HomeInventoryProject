@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HomeProject.GUI
 {
-    public partial class MyInventory : Form
+    public partial class FrmShoppingItems : Form
     {
-        public MyInventory()
+        public FrmShoppingItems()
         {
             InitializeComponent();
         }

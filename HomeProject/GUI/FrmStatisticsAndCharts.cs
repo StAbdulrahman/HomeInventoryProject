@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HomeProject.GUI
 {
-    public partial class UserProfile : Form
+    public partial class FrmStatisticsAndCharts : Form
     {
-        public UserProfile()
+        public FrmStatisticsAndCharts()
         {
             InitializeComponent();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HomeProject.GUI
 {
-    public partial class StatisticsAndCharts : Form
+    public partial class FrmMyInventory : Form
     {
-        public StatisticsAndCharts()
+        public FrmMyInventory()
         {
             InitializeComponent();
         }

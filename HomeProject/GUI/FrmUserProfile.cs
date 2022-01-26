@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HomeProject.GUI
 {
-    public partial class ShoppingItems : Form
+    public partial class FrmUserProfile : Form
     {
-        public ShoppingItems()
+        public FrmUserProfile()
         {
             InitializeComponent();
         }
