@@ -47,8 +47,8 @@
             this.lblDisplyName = new System.Windows.Forms.Label();
             this.panelNavitagion = new System.Windows.Forms.Panel();
             this.treeViewNavgation = new System.Windows.Forms.TreeView();
-            this.panelContent = new System.Windows.Forms.Panel();
             this.imagListNavigation = new System.Windows.Forms.ImageList(this.components);
+            this.panelContent = new System.Windows.Forms.Panel();
             this.panelHeader.SuspendLayout();
             this.panelApp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -134,21 +134,26 @@
             // treeViewNavgation
             // 
             this.treeViewNavgation.Dock = System.Windows.Forms.DockStyle.Left;
+            this.treeViewNavgation.HotTracking = true;
             this.treeViewNavgation.ImageIndex = 0;
             this.treeViewNavgation.ImageList = this.imagListNavigation;
             this.treeViewNavgation.Location = new System.Drawing.Point(0, 0);
             this.treeViewNavgation.Name = "treeViewNavgation";
             treeNode1.ImageKey = "download.png";
             treeNode1.Name = "NodeUserProifle";
+            treeNode1.SelectedImageKey = "Cheek.png";
             treeNode1.Text = "UserProfile";
             treeNode2.ImageKey = "شوبينق.jpg";
             treeNode2.Name = "NodeShoppingItems";
+            treeNode2.SelectedImageKey = "Cheek.png";
             treeNode2.Text = "ShoppingItems";
             treeNode3.ImageKey = "SHOPING 2.jpg";
             treeNode3.Name = "NodeMyInventory";
+            treeNode3.SelectedImageKey = "Cheek.png";
             treeNode3.Text = "MyInventory";
             treeNode4.ImageKey = "احصائيات.png";
             treeNode4.Name = "NodeStatisticsAndCharts";
+            treeNode4.SelectedImageKey = "Cheek.png";
             treeNode4.Text = "StatisticsAndCharts";
             treeNode5.ImageKey = "Home.png";
             treeNode5.Name = "NodeRoot";
@@ -160,16 +165,6 @@
             this.treeViewNavgation.TabIndex = 0;
             this.treeViewNavgation.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewNavgation_AfterSelect);
             // 
-            // panelContent
-            // 
-            this.panelContent.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panelContent.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContent.Location = new System.Drawing.Point(214, 200);
-            this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(590, 271);
-            this.panelContent.TabIndex = 3;
-            // 
             // imagListNavigation
             // 
             this.imagListNavigation.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imagListNavigation.ImageStream")));
@@ -179,6 +174,17 @@
             this.imagListNavigation.Images.SetKeyName(2, "شوبينق.jpg");
             this.imagListNavigation.Images.SetKeyName(3, "SHOPING 2.jpg");
             this.imagListNavigation.Images.SetKeyName(4, "احصائيات.png");
+            this.imagListNavigation.Images.SetKeyName(5, "Cheek.png");
+            // 
+            // panelContent
+            // 
+            this.panelContent.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panelContent.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContent.Location = new System.Drawing.Point(214, 200);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(590, 271);
+            this.panelContent.TabIndex = 3;
             // 
             // FrmMain
             // 
@@ -190,7 +196,6 @@
             this.Controls.Add(this.panelApp);
             this.Controls.Add(this.panelHeader);
             this.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "FrmMain";
             this.Text = "HomeProject";
             this.Load += new System.EventHandler(this.FrmMain_Load);
